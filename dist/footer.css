@@ -1,0 +1,13 @@
+footer > div {
+  max-width: 860px;
+}
+
+.hospital {
+  color: #8fa8bc;
+  font-size: 0.8rem;
+}
+
+.hospital a {
+  color: var(--amber);
+  text-underline-offset: 3px;
+}

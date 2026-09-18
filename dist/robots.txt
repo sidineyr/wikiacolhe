@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wikiacolhe.blubier.chatgpt.site/sitemap.xml

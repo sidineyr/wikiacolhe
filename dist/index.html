@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07172b">
+  <meta name="description" content="Um percurso acessível para aprender a navegar, pesquisar, verificar e cuidar de si na internet.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="Sidiney Rodrigues">
+  <meta name="keywords" content="educação digital, alfabetização digital, internet para iniciantes, Wikipédia, verificação de informações, inclusão digital, segurança digital, inteligência artificial, letramento midiático">
+  <link rel="canonical" href="https://wikiacolhe.blubier.chatgpt.site/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="WikiAcolhe — conhecimento para navegar por dentro e por fora">
+  <meta property="og:description" content="Percurso gratuito e acessível para aprender a navegar, pesquisar, verificar informações e cuidar de si na internet.">
+  <meta property="og:url" content="https://wikiacolhe.blubier.chatgpt.site/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="WikiAcolhe">
+  <meta name="twitter:description" content="Conhecimento para navegar por dentro e por fora.">
+  <title>WikiAcolhe — conhecimento para navegar por dentro e por fora</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2307172b'/%3E%3Ccircle cx='23' cy='27' r='7' fill='%23ffc35c'/%3E%3Ccircle cx='41' cy='27' r='7' fill='%235ad5e8'/%3E%3Cpath d='M20 44c8 6 16 6 24 0' fill='none' stroke='white' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="footer.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "WikiAcolhe",
+    "alternateName": "WikiAcolhe: conhecimento para navegar por dentro e por fora",
+    "url": "https://wikiacolhe.blubier.chatgpt.site/",
+    "inLanguage": ["pt-BR", "en"],
+    "description": "Percurso educacional gratuito e acessível para iniciantes aprenderem a navegar, pesquisar, verificar informações e cuidar de si na internet.",
+    "isAccessibleForFree": true,
+    "educationalUse": ["autoinstrução", "alfabetização digital", "letramento midiático"],
+    "audience": {"@type": "EducationalAudience", "educationalRole": "student"},
+    "creator": {"@type": "Person", "name": "Sidiney Rodrigues", "url": "https://github.com/sidineyr"}
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#percurso">Pular para o percurso</a>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="WikiAcolhe, início"><span aria-hidden="true">◉</span> WikiAcolhe</a>
+    <nav aria-label="Navegação principal">
+      <a href="#percurso" data-i18n="navJourney">Percurso</a>
+      <a href="#oficina" data-i18n="navWorkshop">Oficina</a>
+      <a href="#cuidado" data-i18n="navCare">Cuidado</a>
+    </nav>
+    <button id="language" class="utility" aria-label="Mudar idioma para inglês">EN</button>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero" aria-labelledby="hero-title">
+      <img src="assets/robo-guia-wikiacolhe.png" alt="Pequeno robô viajante segura uma semente luminosa entre corredores de servidores." width="1536" height="1024">
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">Uma iniciação à internet</p>
+        <h1 id="hero-title" data-i18n="title">Conhecimento para navegar por dentro e por fora.</h1>
+        <p data-i18n="intro">Eu encontrei uma semente no meio dos dados. Você me ajuda a descobrir de onde ela veio?</p>
+        <button id="begin" class="primary" data-i18n="begin">Começar com o pequeno robô</button>
+      </div>
+    </section>
+
+    <section class="orientation" aria-label="Antes de começar">
+      <div><strong data-i18n="time">15 minutos</strong><span data-i18n="timeHelp">no seu ritmo</span></div>
+      <div><strong data-i18n="account">Sem cadastro</strong><span data-i18n="accountHelp">nada é enviado</span></div>
+      <div><strong data-i18n="local">Progresso local</strong><span data-i18n="localHelp">guardado neste aparelho</span></div>
+    </section>
+
+    <section id="percurso" class="journey" aria-labelledby="journey-title">
+      <div class="section-head">
+        <div><p class="eyebrow" data-i18n="pathLabel">Seu primeiro mapa</p><h2 id="journey-title" data-i18n="pathTitle">Quatro gestos para não se perder</h2></div>
+        <div class="progress-wrap"><span id="progressText">0 de 4</span><progress id="progress" max="4" value="0">0%</progress></div>
+      </div>
+      <div class="steps" role="list">
+        <article class="step active" data-step="0" role="listitem">
+          <span class="number">01</span><h3 data-i18n="s1t">Pare e observe</h3>
+          <p data-i18n="s1p">Antes do clique, leia o endereço, reconheça quem publicou e perceba o que a página quer de você.</p>
+          <button class="step-action" data-i18n="practice">Praticar este gesto</button>
+        </article>
+        <article class="step" data-step="1" role="listitem">
+          <span class="number">02</span><h3 data-i18n="s2t">Pergunte melhor</h3>
+          <p data-i18n="s2p">Uma busca melhora quando ganha contexto, palavras específicas e uma pergunta que você realmente deseja responder.</p>
+          <button class="step-action" data-i18n="practice">Praticar este gesto</button>
+        </article>
+        <article class="step" data-step="2" role="listitem">
+          <span class="number">03</span><h3 data-i18n="s3t">Cruze caminhos</h3>
+          <p data-i18n="s3p">A Wikipédia oferece pistas. Abra as referências, compare fontes e descubra onde cada afirmação começou.</p>
+          <button class="step-action" data-i18n="practice">Praticar este gesto</button>
+        </article>
+        <article class="step" data-step="3" role="listitem">
+          <span class="number">04</span><h3 data-i18n="s4t">Cuide de você</h3>
+          <p data-i18n="s4p">Se o conteúdo apertar o peito, pare. Feche a aba, respire, procure alguém. Conhecer também é saber interromper.</p>
+          <button class="step-action" data-i18n="practice">Praticar este gesto</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="oficina" class="workshop" aria-labelledby="workshop-title">
+      <div class="section-head"><div><p class="eyebrow" data-i18n="labLabel">Oficina de pistas</p><h2 id="workshop-title" data-i18n="labTitle">Investigue uma informação</h2></div></div>
+      <div class="lab-grid">
+        <div class="source-card">
+          <span class="tag" data-i18n="example">Exemplo fictício</span>
+          <p class="claim" data-i18n="claim">“Um estudo prova que usar telas sempre melhora a aprendizagem.”</p>
+          <p class="meta">curiosidades-agora.example · 18 set. 2026</p>
+        </div>
+        <form id="checklist">
+          <fieldset><legend data-i18n="question">O que você verificaria primeiro?</legend>
+            <label><input type="checkbox" name="check" value="author"> <span data-i18n="c1">Quem escreveu e qual é sua formação?</span></label>
+            <label><input type="checkbox" name="check" value="study"> <span data-i18n="c2">Onde está o estudo citado?</span></label>
+            <label><input type="checkbox" name="check" value="date"> <span data-i18n="c3">A data e o contexto continuam válidos?</span></label>
+            <label><input type="checkbox" name="check" value="agree"> <span data-i18n="c4">Se a frase combina com o que já penso?</span></label>
+          </fieldset>
+          <button class="secondary" type="submit" data-i18n="check">Conferir escolhas</button>
+          <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="cuidado" class="care" aria-labelledby="care-title">
+      <div><p class="eyebrow" data-i18n="careLabel">Uma pausa também ensina</p><h2 id="care-title" data-i18n="careTitle">A internet não precisa ser atravessada sozinho.</h2></div>
+      <div class="care-copy"><p data-i18n="careText">O WikiAcolhe é um espaço educativo e reflexivo. Não é terapia, diagnóstico ou atendimento de emergência. Se algo lhe fizer mal, afaste-se da tela e converse com uma pessoa de confiança ou um profissional.</p><button id="breathe" class="breath" data-i18n="breathe">Fazer uma pausa de 20 segundos</button><p id="breathStatus" role="status" aria-live="polite"></p></div>
+    </section>
+  </main>
+
+  <dialog id="guide">
+    <button class="close" aria-label="Fechar">×</button>
+    <p class="eyebrow" data-i18n="guideLabel">Mensagem do viajante</p>
+    <h2 data-i18n="guideTitle">Aqui você não precisa saber tudo.</h2>
+    <p data-i18n="guideText">Escolha um gesto, experimente e volte quando quiser. Eu guardo seu progresso somente neste aparelho.</p>
+    <button id="guideGo" class="primary" data-i18n="guideGo">Encontrar o primeiro gesto</button>
+  </dialog>
+
+  <footer>
+    <div>
+      <p><strong>WikiAcolhe</strong> · <span data-i18n="credit">Idealizado por Sidiney Rodrigues. Projeto educacional aberto, independente e sem coleta de dados.</span></p>
+      <p class="hospital"><span data-i18n="donationIntro">Este projeto nasceu do desejo de ensinar e cuidar. Se ele tocou você,</span> <a href="https://pequenoprincipe.org.br/doadores/apoie-o-pequeno-principe/" target="_blank" rel="noopener noreferrer" data-i18n="donationLink">considere doar diretamente ao Hospital Pequeno Príncipe</a>. <span data-i18n="donationNote">Iniciativa voluntária, independente e sem intermediação financeira.</span></p>
+    </div>
+    <button id="reset" data-i18n="reset">Recomeçar percurso</button>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

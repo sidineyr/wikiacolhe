@@ -1,0 +1,10 @@
+# WikiAcolhe
+
+> Portal educacional gratuito para alfabetização digital, pesquisa, verificação de informações e cuidado durante a navegação.
+
+- Página principal: https://wikiacolhe.blubier.chatgpt.site/
+- Idiomas: português brasileiro e inglês
+- Criador: Sidiney Rodrigues
+- Conteúdo: CC BY 4.0
+- Privacidade: sem cadastro, rastreadores ou coleta de dados; progresso somente local
+- Limite: recurso educacional e reflexivo; não oferece terapia, diagnóstico ou atendimento de emergência
